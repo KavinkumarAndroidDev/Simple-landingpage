@@ -5,14 +5,33 @@
     font-family: "Montserrat", sans-serif;
 }
 
-header {
+.header1 {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     padding: 30px 10%;
     background: transparent;
 }
+.foot1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 10%;
+    background: black;
+    color: #000;
+}
+.header1 > button {
+    padding: 9px 25px;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
 
+.header1 > button:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+}
 li,
 a,
 button {
@@ -34,19 +53,6 @@ nav ul li a {
 nav ul li a:hover {
     color: #000;
     transition: all 0.3s ease 0s;
-}
-
-header > button {
-    padding: 9px 25px;
-    background-color: #4caf50;
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
-}
-
-header > button:hover {
-    background-color: rgba(0, 136, 169, 0.8);
 }
 
 .wrapper {
@@ -74,6 +80,19 @@ header > button:hover {
     padding: 80px 10%;
     justify-content: space-between;
     color: #FFF;
+}
+
+.home{
+    display: flex;
+    padding: 80px 10%;
+    justify-content: flex-end;
+    color: #000;
+}
+.about{
+    display: flex;
+    padding: 80px 10%;
+    justify-content: flex-start;
+    color: #000;
 }
 
 .hero-info h1 {
